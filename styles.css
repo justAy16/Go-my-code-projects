@@ -1,0 +1,176 @@
+/* styling for home page */
+*{
+    box-sizing: inherit;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: radial-gradient(circle, #512090, #442579, #1c116e, #06165f);
+    color: rgb(2, 8, 40);
+    font-weight: 500;
+}
+.nav-bar{
+    display: inline;
+    height: 50px;
+    position: fixed;
+    background: linear-gradient(45deg, rgb(192, 115, 67), rgb(72, 30, 11), rgb(72, 29, 11));
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 1;
+}
+.my-portfolio-logo{
+    height: 50px;
+    width: 20%;
+    max-width: 250px;
+}
+.nav-ul{
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    width: 55%;
+    max-width: 600px;
+    height: 50px;
+    margin: auto 3% auto auto;
+    align-items: center;
+}
+.nav-li{
+    list-style: none;
+    justify-content: center;
+}
+.nav-links{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 26px;
+    color: black;
+    margin: auto;
+}
+.nav-links:hover{
+    background: linear-gradient(90deg, rgb(239, 65, 45), rgb(79, 41, 32));
+}
+#home{
+    padding-top: 50px;
+    text-align: center;
+}
+.section{
+    font-size: 55px;
+    font-family: cursive;
+    padding-top: 60px;
+    margin-top: 0;
+}
+.heading{
+    font-family: fantasy;
+    font-weight: 900;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.subheading{
+    font-family: cursive;
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 0;
+}
+.home-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#about, #work, #resume{
+    margin: auto 20%;
+}
+.texts{
+    font-size: large;
+}
+.about-div-vid{
+    text-align: center;
+    margin-top: 70px;
+}
+.about-vid{
+    box-shadow: -9px -9px 5px 7px #381e66;
+}
+#resume{
+    text-align: center;
+    height: 250px;
+    margin-bottom: 100px;
+    box-shadow: 5px 5px 10px 0 #512090
+}
+.resume-section{
+    margin-bottom: 35px;
+}
+.links{
+    color: rgba(228, 27, 27, 0.889);
+}
+.links:hover{
+    color: rgba(162, 38, 38, 0.889);
+}
+#contact{
+    width: 60%;
+    min-width: 500px;
+    height: 770px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 5px 5px 10px 0 #1a0635;
+    margin-bottom: 70px;
+    color: beige;
+}
+input{
+    height: 20px; 
+    border: 1px solid black;
+}
+label{
+    font-size: 28px;
+}
+.form-input{
+    height: 28px;
+    float: right;
+    width: 40%;
+}
+.form-div{
+    width: 80%;
+}
+.form-textarea{
+    float: right;
+}
+.form-button{
+    border-radius: 50%;
+    height: 25px;
+    width: 70px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: medium;
+    align-items: center;
+}
+.submit{
+    background-color: red;
+}
+.form-button:hover{
+    cursor: pointer;
+    height: 32px;
+    width: 77px;
+    font-weight: 900;
+}
+.subscription-input{
+    padding: 5px;
+}
+.subscribe-button{
+    padding: 8px;
+}
+.footer-div{
+    text-align: center;
+}
+
+/* styling for resume page */
+table{
+    border: 1px solid black;
+    margin: auto;
+    min-width: 450px;
+}
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+    height: 45px;
+    min-width: 75px;
+}
+.body2{
+    text-align: center;
+    margin-bottom: 70px;
+}
